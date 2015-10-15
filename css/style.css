@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -15,6 +15,7 @@ body {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
+  /*background-image: url(rsz_1nairobi.jpg);*/
   background-color: #22283f;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -36,9 +37,9 @@ a {
   text-decoration: none;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main Components 
+Main Components
 
 -------------------------------- */
 @media only screen and (min-width: 1050px) {
@@ -57,6 +58,7 @@ Main Components
 }
 .cd-section:first-of-type > div {
   background-color: #2b334f;
+  background-image: url(../img/img-1.jpg);
 }
 .cd-section:first-of-type > div::before {
   /* alert -> all scrolling effects are not visible on small devices */
@@ -72,16 +74,19 @@ Main Components
   color: #6a7083;
 }
 .cd-section:nth-of-type(2) > div {
-  background-color: #2e5367;
+background-image: url(../img/img-2.jpg);
 }
 .cd-section:nth-of-type(3) > div {
-  background-color: #267481;
+  background-color: #FFF;
+  background-image: url(../img/img-3.jpg);
 }
 .cd-section:nth-of-type(4) > div {
   background-color: #fcb052;
+  background-image: url(../img/img-4.jpg);
 }
 .cd-section:nth-of-type(5) > div {
   background-color: #f06a59;
+  background-image: url(../img/img-5.jpg);
 }
 [data-animation="parallax"] .cd-section > div, [data-animation="fixed"] .cd-section > div, [data-animation="opacity"] .cd-section > div {
   background-position: center center;
