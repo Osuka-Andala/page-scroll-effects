@@ -25,6 +25,15 @@ body::before {
   content: 'mobile';
   display: none;
 }
+h1 {
+  font-size: 55px;
+  font-family: Tahoma;
+  font-weight: bold;
+
+}
+h1 span {
+    border: 5px solid #000;
+}
 @media only screen and (min-width: 1050px) {
   body::before {
     /* never visible - this is used in jQuery to check the current MQ */
